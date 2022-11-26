@@ -25,16 +25,16 @@ padding: 1rem;
 border-radius: 1rem;
 }
 
-
-.title{
-text-decoration: none;
-font-size: 3rem;
-font-weight: bold;
-color: #0f0b00;
+header {
+font-size:3.5rem;
+font-weight:bold;
+text-align:center;
+background-color: #ffffff;
+padding: 0.2em;
+grid-column: 1 / -1;
+border-radius: 2rem;
 }
 
-
-.title a:hover{text-decoration: none;}
 
 #why{
 display: grid;
@@ -66,9 +66,65 @@ height: auto;
 
 .sec3img img{
 max-width: 70%;
-height: auto;
+height: 95%;
 }
 
 p{
 font-size: 1.75rem;
 }	
+
+footer {
+height:20px;
+text-align:center;
+font-size:0.8rem;
+background-color: #ffffff;
+padding: 1em;
+grid-column: 1 / -1;
+border-radius: 2rem;
+}
+
+@media screen and (max-width: 50rem) {
+body {
+grid-template-columns: 1fr;
+}
+#why{
+display: grid;
+grid-template-rows: max-content;
+grid-template-columns: 1fr;
+}	
+#what{
+display: grid;
+grid-template-rows: max-content;
+grid-template-columns: 1fr;
+}	
+#call{
+display: grid;
+grid-template-rows: max-content;
+grid-template-columns: 1fr;
+}	
+}
+
+@media screen and (max-width: 30rem) {
+  .page_container {
+    grid-template-columns: 1fr;
+	margin: 0;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	border-radius: 0;
+}
+body {
+    margin: 0;
+}  
+}
+
+@media screen and (max-width: 25rem) {
+header {
+padding: 0.25em;
+}
+}
+
+@media screen and (max-width: 20rem) {
+header {
+font-size:2.5rem;
+}
+}
