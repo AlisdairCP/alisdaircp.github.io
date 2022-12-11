@@ -1,11 +1,12 @@
 body {
 margin: auto;
 font-family: Tahoma;
-max-width: 84rem;
+display: grid;
 text-align: center;
 background-color: #ffffff;
 font-size: 1rem;
 line-height: 1.4;
+max-width: 90rem;
 }
 
 .main_content{
@@ -67,3 +68,20 @@ border-top: 1px solid #000000;
 ul{
 margin-right: 5rem;
 }	
+
+@media screen and (max-width: 50rem) {
+
+}
+
+@media screen and (max-width: 30rem) {
+
+
+}
+
+@media screen and (max-width: 25rem) {
+
+}
+
+@media screen and (max-width: 20rem) {
+
+}

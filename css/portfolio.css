@@ -14,14 +14,14 @@ grid-template-rows: max-content max-content;
 grid-template-columns: 1fr 1fr;
 }	
 
-p {text-align:left;
-font-size:0.8rem;
+p {text-align: left;
+font-size: 0.8rem;
 }
 
 header {
-font-size:3.5rem;
-font-weight:bold;
-text-align:center;
+font-size: 3.5rem;
+font-weight: bold;
+text-align: center;
 background-color: #ffffff;
 padding: 0.2em;
 grid-column: 1 / -1;
@@ -29,8 +29,8 @@ border-radius: 2rem;
 }
 
 a {
-text-decoration:none;
-color:#264040;
+text-decoration: none;
+color: #264040;
 }
 
 a:hover {
@@ -39,8 +39,8 @@ text-decoration: underline;
 
 
 #social {
-text-align:center;
-background-color:#ffffff;
+text-align: center;
+background-color: #ffffff;
 padding: 1em;
 margin-left: 10rem;
 margin-right: 10rem;
@@ -49,8 +49,8 @@ border-radius: 2rem;
 }
 
 #who_am_i {
-text-align:center;
-background-color:#ffffff;
+text-align: center;
+background-color: #ffffff;
 padding: 1em;
 margin-left: 4rem;
 margin-right: 4rem;
@@ -59,8 +59,8 @@ border-radius: 2rem;
 }
 
 #what_i_do {
-text-align:center;
-background-color:#ffffff;
+text-align: center;
+background-color: #ffffff;
 padding: 1em;
 margin-left: 3rem;
 margin-right: 3rem;
@@ -69,8 +69,8 @@ border-radius: 2rem;
 }
 
 #experience {
-text-align:center;
-background-color:#ffffff;
+text-align: center;
+background-color: #ffffff;
 padding: 1em;
 margin-left: 5rem;
 margin-right: 5rem;
@@ -79,14 +79,14 @@ border-radius: 2rem;
 }
 
 p{
-text-align:center;
+text-align: center;
 font-size: 0.95rem;
 line-height: 1.35rem;
 }	
 
 #main_news {
-text-align:center;
-background-color:#ffffff;
+text-align: center;
+background-color: #ffffff;
 border: 2px solid black;
 padding: 1em;
 overflow: hidden;
@@ -96,9 +96,9 @@ border-radius: 1rem;
 }
 
 footer {
-height:20px;
-text-align:center;
-font-size:0.8rem;
+height: 20px;
+text-align: center;
+font-size: 0.8rem;
 background-color: #ffffff;
 padding: 1em;
 grid-column: 1 / -1;
@@ -116,13 +116,6 @@ margin-right: 6rem;
 }
 
 @media screen and (max-width: 30rem) {
-  .page_container {
-    grid-template-columns: 1fr;
-	margin: 0;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	border-radius: 0;
-}
 body {
     margin: 0;
 }  
@@ -140,7 +133,10 @@ margin-right: 3rem;
 
 @media screen and (max-width: 20rem) {
 header {
-font-size:2.5rem;
+font-size: 2.5rem;
+}
+h3 {
+font-size: 0.85em;
 }
 #social {
 margin-left: 2rem;
