@@ -122,6 +122,9 @@ margin-right: 6rem;
 body {
     margin: 0;
 }  
+footer {
+	height: 40px;
+}
 }
 
 @media screen and (max-width: 25rem) {
