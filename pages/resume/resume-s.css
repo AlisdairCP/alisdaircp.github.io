@@ -1,7 +1,6 @@
 body {
 margin: auto;
 font-family: Tahoma;
-display: grid;
 text-align: center;
 background-color: #ffffff;
 font-size: 1rem;
@@ -19,7 +18,7 @@ font-size: 3rem;
 }	
 
 .name_container{
-padding: 0.5rem;
+padding: 0.2rem;
 background-color: #0080ff;
 }
 	
@@ -40,9 +39,9 @@ border-right: 1px solid #000000;
 
 #profile{
 display: grid;
-grid-template-rows: max-content max-content;
-grid-template-columns: 0.7fr 1.3fr;
+grid-template-columns: 40% 60%;
 }
+
 
 footer{
 padding: 1rem;
@@ -69,19 +68,15 @@ ul{
 margin-right: 5rem;
 }	
 
-@media screen and (max-width: 50rem) {
-
-}
-
 @media screen and (max-width: 30rem) {
-
-
+#profile{
+display: block;
 }
-
-@media screen and (max-width: 25rem) {
-
+.sidebar{
+border-right: none;
+background-color: #ffffff;
 }
-
-@media screen and (max-width: 20rem) {
-
+.section_title{
+background-color: #ffffff;
+}
 }
